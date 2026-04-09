@@ -10,4 +10,4 @@ Na przygotowanych danych zaimplementowany jest algorytm klasyfikacyjny oparty na
 Zawiera implementację algorytmu genetycznego z selekcją ruletkową, którego celem jest wyznaczenie optymalnych wag poprawiających accuracy klasyfikatora. Ze względów wydajnościowych obliczenia wag wykonywane są na reprezentatywnej części zbioru danych.
 
 
-<h2>Najwyższe uzyskane accuracy: 99,97%</h2>
+<b>Najwyższe uzyskane accuracy: 99,97%</b>
