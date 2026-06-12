@@ -1,12 +1,21 @@
-<h1>Detekcja choroby Wilsona</h1>
+<h1>Wilson’s Disease Detection</h1>
 
-<h2>soft_set_isWilsondisease_classification – Analiza danych i klasyfikacja</h2>
-<p>Zawiera preprocessing zbioru danych – normalizację oraz usunięcie cech o niskim wpływie na wynik.
-Na przygotowanych danych zaimplementowany jest algorytm klasyfikacyjny oparty na teorii zbiorów miękkich, wykorzystujący średnią i medianę. Model jest trenowany na zbiorze treningowym i ewaluowany na zbiorze testowym z wyznaczeniem wskaźnika accuracy.</p>
+<h2>soft_set_isWilsondisease_classification – Data Analysis and Classification</h2>
 
-<h2>genetic_algorithm – Optymalizacja wag algorytmem genetycznym</h2>
-<p>Zawiera implementację algorytmu genetycznego z selekcją ruletkową, którego celem jest wyznaczenie optymalnych wag poprawiających accuracy klasyfikatora. Ze względów wydajnościowych obliczenia wag wykonywane są na reprezentatywnej części zbioru danych.</p>
+<p>
+Performs data preprocessing, including normalization and feature selection. 
+Implements a Soft Set Theory-based classification model using mean and median calculations. 
+The model is trained and evaluated on separate datasets, with accuracy used to measure performance.
+</p>
+
+<h2>genetic_algorithm – Genetic Algorithm Optimization</h2>
+
+<p>
+Implements a genetic algorithm with roulette wheel selection to optimize feature weights and improve classification performance. 
+To reduce computational cost, optimization is performed on a representative subset of the dataset.
+</p>
 
 <br/>
 
-<b>Najwyższe uzyskane accuracy: 99,97%</b>
+<b>Best achieved accuracy: 99.97%</b>
+
